@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyPlayer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/cssfamily=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">🎵 MyPlayer</h2>
+    <nav>
+      <a href="#">🏠 Home</a>
+      <a href="#">🔍 Search</a>
+      <a href="#">🎼 Your Library</a>
+      <a href="#">📁 Playlists</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="top-bar">
+      <input type="text" placeholder="Search for songs, artists..." />
+</div>
+
+    <h2 class="section-title">Trending Songs</h2>
+
+    <div class="song-grid">
+
+      <!-- SONG CARD -->
+      <div class="song-card" data-src="C:\Users\neeli\OneDrive\Desktop\Music\songs\Chikiri_Chikiri.MP3.mp3" data-title="chikiri" data-artist="peddi">
+  <img src="https://c.saavncdn.com/735/Chikiri-Chikiri-From-Peddi-Telugu-Telugu-2025-20251107191120-500x500.jpg" alt="Album">
+  <div class="play-overlay">▶</div>
+  <h3>chikiri</h3>
+  <p>peddi</p>
+      </div>
+
+
+      <div class="song-card" data-src="C:\Users\neeli\OneDrive\Desktop\Music\Boom_Boom.mp3" data-title="boom boom" data-artist="Dude">
+        <img src="https://soundworldz.com/upload_file/17/230x230/thumb_68eb1c89e2dd4.webp" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>boom boom</h3>
+        <p>Dude</p>
+      </div>
+      
+      <div class="song-card" data-src="C:\Users\neeli\OneDrive\Desktop\Music\Singari.mp3" data-title="singari" data-artist="Dude">
+        <img src="https://masstamilan.sbs/upload_file/19/136/230x230/thumb_68e4b01893ce0.webp" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>singari</h3>
+        <p>Dude</p>
+      </div>
+<div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Sahana_Sahana_Telugu.mp3" data-title="sahana" data-artist="Rajasaab">
+        <img src="https://pagalsongz.com/upload_file/20/25/230x230/thumb_69435ed4314e7.webp" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>sahana</h3>
+        <p>Rajasaab</p>
+      </div>
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Idhedho Bagundhe-320kbps.mp3" data-title="idedo" data-artist="Mirchi">
+        <img src="https://pagalworldmusic.com/downloads/cover/231856/231856.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>idedo</h3>
+        <p>Mirchi</p>
+      </div>
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Gira_Gira_Gingiraagirey.mp3" data-title="gira gira" data-artist="gira gira">
+        <img src="https://pagalworldmusic.com/downloads/cover/4578424/4578424.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>gira gira</h3>
+        <p>Champion</p>
+      </div>
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Nenu Nuvvantu-320kbps.mp3" data-title="nenu nuvvantu" data-artist="nenu nuvvantu">
+        <img src="https://pagalworldmusic.com/downloads/cover/3023841/3023841.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>nenu nuvvantu</h3>
+        <p>Orange</p>
+      </div>
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Bommanu Geesthey-320kbps.mp3" data-title="bommanu geestey" data-artist="bommanu geestey">
+        <img src="https://pagalworldmusic.com/downloads/cover/3096813/3096813.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>bommanu geestey</h3>
+        <p>Bommarillu</p>
+      </div>
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Meesaala Pilla From Mana ShankaraVaraprasad Garu Pandagaki Vasthunnaru-320kbps.mp3" data-title="meesala pilla" data-artist="meesaala pilla">
+        <img src="https://pagalworldmusic.com/downloads/cover/4576994/4576994.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>meesaala pilla</h3>
+        <p>Mana shankara vara prasad</p>
+      </div>
+      
+      <div class="song-card"  data-src="C:\Users\neeli\OneDrive\Desktop\Music\Nuvvu Navvukuntu-320kbps.mp3" data-title="nuvvu navvukuntu" data-artist="nuvvu navvukuntu">
+        <img src="https://pagalworldmusic.com/downloads/cover/4562562/4562562.jpg" alt="Album">
+        <div class="play-overlay">▶</div>
+        <h3>nuvvu navvukuntu</h3>
+        <p>MAD</p>
+      </div>
+</div>
+  </main>
+</div>
+
+
+    <div>
+      <h4>No song playing</h4>
+      <p>---</p>
+    </div>
+  </div>
+
+  <div class="player-center">
+    <div class="controls">⏮ ⏯ ⏭ 🔀 🔁</div>
+    <div class="progress">
+      <span>0:00</span>
+      <div class="progress-bar"></div>
+      <span>3:45</span>
+    </div>
+  </div>
+
+  <div class="player-right">
+    🔊 <input type="range" />
+  </div>
+</div>
+
+<audio id="audioPlayer"></audio>
+<script src="script.js"></script>
+
+
+</body>
+</html>
